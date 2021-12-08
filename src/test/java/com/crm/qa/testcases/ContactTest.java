@@ -20,7 +20,7 @@ public class ContactTest extends TestBase {
 	HomePage homedriver;
 	TestUtil utildriver;
 	ContactPage contactdriver;
-
+		// for git test
 	public ContactTest() {
 		super();
 	}
@@ -42,7 +42,7 @@ public class ContactTest extends TestBase {
 
 		homedriver.clickOnAdCOntactButton().click();
 		utildriver.highLighterMethod(driver, ele11);
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 
 		contactdriver = new ContactPage();
 
